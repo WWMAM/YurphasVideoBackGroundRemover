@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yurpha's Video Backgrond Remover</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="backgroundremover.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.9.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.2.0/dist/body-pix.min.js"></script>
+  </head>
+  <body>
+    <h1>Yurpha's Video Backgrond Remover</h1>
+    <input type="file" id="videoUpload" />
+    <div id="error"></div>
+    <video id="inputVideo" controls="400"></video>
+    <canvas id="outputCanvas"></canvas>
+  </body>
+</html>
